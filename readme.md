@@ -2,7 +2,7 @@
 
 This AI was created to determine when your room is getting messy or if it's still clean.
 
-![add image descrition here](direct image link here)
+
 
 ## The Algorithm
 To differentiate between a clean and a dirty room, my program uses image detection. The USBCAMERA and CSICAMERA libraries from jetcam are imported into the code to make it function. It first checks to see if you're using a CSI or USB camera before turning on the camera. Then it decides which categories, such as Clean and Dirty, it wants to collect data from. The following lines of code are then executed:
@@ -25,7 +25,7 @@ It then begins categorizing the pictures. The model is trained using ```Torch```
 12. Run all the cells by pressing ```CONTROL+ENTER```(Windows), ```COMMAND+ENTER```(Mac).
 13. Wait for interactive display apper after all cells were executed
 14. Clear the text from in the model path box and paste this: ```/nvdli-nano/data/classification/final.pth```
-[Imgur](https://imgur.com/f4Ezr9d)
+![Imgur](https://imgur.com/f4Ezr9d)
 15. Click the ```load model``` button
 16. Put your camrea on a clean or dirty part of the room.
 17. Click ```evaluate```
