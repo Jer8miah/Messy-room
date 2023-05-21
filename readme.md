@@ -25,9 +25,12 @@ It then begins categorizing the pictures. The model is trained using ```Torch```
 12. Run all the cells by pressing ```CONTROL+ENTER```(Windows), ```COMMAND+ENTER```(Mac).
 13. Wait for interactive display apper after all cells were executed
 14. Clear the text from in the model path box and paste this: ```/nvdli-nano/data/classification/final.pth```
-![Imgur](https://imgur.com/f4Ezr9d)
+![f4Ezr9d - Imgur](https://github.com/Jer8miah/Messy-room/assets/88449920/168353ba-c1f8-47ac-a165-9c1c7b132384)
 15. Click the ```load model``` button
 16. Put your camrea on a clean or dirty part of the room.
 17. Click ```evaluate```
 18. You will see the slider changing to what it thinks it is.
 [View a video explanation here](https://youtu.be/iE-GbLcX5xc)
+
+#### Notice
+This model was trained on my room
