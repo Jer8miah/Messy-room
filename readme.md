@@ -17,6 +17,17 @@ It then begins categorizing the pictures. The model is trained using ```Torch```
 4. Then: ```wget https://github.com/Jer8miah/Messy-room/blob/5bc2a5e55dd28aaa6e3dc7a83e0bb4a4f679fdf5/Final.ipynb``` 
 5. Type: ```cd``` to navigate back to your home directory in the docker
 6. Then: ```cd data/classification``` 
-7. 
-
-[View a video explanation here](video link)
+7. Then: ```wget https://github.com/Jer8miah/Messy-room/blob/c6811bf06d70f61e3e58b3bbd96704df77c4f91f/nvdli-data/classification/final.pth ```
+8. Open JupyterLab from the link in the beginning
+9. Password: ```dlinano```
+10. Once inside click ```classification``` folder on the left-hand side.
+11. Click on the file ```final.ipynb```
+12. Run all the cells by pressing ```CONTROL+ENTER```(Windows), ```COMMAND+ENTER```(Mac).
+13. Wait for interactive display apper after all cells were executed
+14. Clear the text from in the model path box and paste this: ```/nvdli-nano/data/classification/final.pth```
+[Imgur](https://imgur.com/f4Ezr9d)
+15. Click the ```load model``` button
+16. Put your camrea on a clean or dirty part of the room.
+17. Click ```evaluate```
+18. You will see the slider changing to what it thinks it is.
+[View a video explanation here](https://youtu.be/iE-GbLcX5xc)
